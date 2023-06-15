@@ -1,0 +1,393 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'IM Fell Double Pica SC', serif;
+  line-height: 1.5;
+}
+
+.meme {
+  background-color: rgba(0, 0, 0, 1.0);
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  width: 100%;
+  position: fixed;
+
+}
+
+.bigatine {
+  background-image: url(./images/beach.jpg);
+  height: 1135h;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -30px;
+  padding-top: 35px;
+  background-attachment: fixed;
+
+}.bigatine2 {
+  background-image: url(./images/bigatine.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -30px;
+  background-attachment: fixed;
+
+}
+
+header {
+  background-color: #333;
+  padding: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-size: 31px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  margin: 40px;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p{
+font-size: 19px;
+
+}
+
+section:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.profile h2 {
+  margin-top: 10px;
+}
+
+header {
+  background-color: #333;
+  padding: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-size: 31px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  margin: 40px;
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p{
+font-size: 19px;
+
+}
+
+section:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.profile h2 {
+  margin-top: 10px;
+}
+
+.polaroid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.polaroid-container img {
+  width: 200px;
+  height: 200px; 
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style navigation */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* Style main content */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Style form */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
